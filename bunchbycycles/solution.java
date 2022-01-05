@@ -12,11 +12,11 @@ public class Main {
       for(int i=0;i<=cycles.length;i++)
     {
       if(cycles[i]<400)
-        lowCount+=1;
+        counts.lowCount+=1;
       else if(cycles[i]>=400 && cycles[i]<=919)
-        mediumCount+=1;
+        counts.mediumCount+=1;
       else if(cycles[i]>=920)
-        highCount+=1;
+        counts.highCount+=1;
       }  
     return counts;
   }
