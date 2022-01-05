@@ -17,6 +17,7 @@ public class Main {
         mediumCount+=1;
       else if(cycles[i]>=920)
         highCount+=1;
+      }  
     return counts;
   }
 
